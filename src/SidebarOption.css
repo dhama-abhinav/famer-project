@@ -1,0 +1,26 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 10px;
+}
+.sidebarOption >h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sidebarOption:hover ,
+.sidebarOption:hover>h3 {
+    background-color: whitesmoke;
+    color: rgb(58, 50, 50);
+    font-weight: 800 !important;
+}
+
