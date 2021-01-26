@@ -31,9 +31,7 @@ export const Sidebar = () => {
       <div  className="options">
         <SidebarOption Icon={ExpandMoreIcon} title="More" />
       </div>
-      <div  className="options">
-        <SidebarOption Icon={ExpandMoreIcon} title="More" />
-      </div>
+      
     </div>
   );
 };
