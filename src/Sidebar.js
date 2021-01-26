@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState} from "react";
 import "./Sidebar.css";
 import { SidebarOption } from "./SidebarOption";
 import StarRateIcon from "@material-ui/icons/StarRate";
@@ -10,8 +10,10 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useHistory } from "react-router-dom";
 
 export const Sidebar = () => {
+    
   const history = useHistory();
-  return (
+
+  return ( 
     <div className="sidebar">
       <div onClick={() => history.push("/")} className="options">
         <SidebarOption Icon={StarRateIcon} title="Starred" />

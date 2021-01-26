@@ -2,13 +2,16 @@ import React from "react";
 import "./App.css";
 import { Sidebar } from "./Sidebar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Header } from "./Header";
 
 function App() {
   return (
     <Router>
       <div className="app">
-        <Sidebar />
+        <Header />
+
         <div className="app__body">
+          <Sidebar />
           <Switch>
             <Route path="/hi">
               <h2>hi</h2>

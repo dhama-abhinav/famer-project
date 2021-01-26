@@ -1,7 +1,9 @@
 .app{
     display: flex;
+    flex-direction: column;
 }
 .app__body{
+    display: flex;
     flex: 0.7;
     background-color: whitesmoke;
     height: 100vh;
