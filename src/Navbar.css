@@ -1,0 +1,29 @@
+.sidebar--active{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    transition: left .03s ease-in-out;
+    /* flex: 0.3; */
+    width: 250px;
+    padding-right: 20px;
+    background-color:#330036;
+    height: 100vh;
+}
+.sidebar{
+    /* left: -250px;
+    transition: left .3s ease-in-out; */
+    display: none;
+   
+}
+.navbar__header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #61988E;
+}
+.navbar__headerLeftIcon{
+    color: black !important;
+    font-size: 35px !important;
+    margin-left: 10px ;
+}
